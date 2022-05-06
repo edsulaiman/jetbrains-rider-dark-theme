@@ -1,0 +1,21 @@
+{
+  "name": "jetbrains-rider-dark-theme",
+  "displayName": "JetBrains Rider Dark Theme",
+  "description": "JetBrains Rider Dark Theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetBrains Rider Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains Rider Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
