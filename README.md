@@ -18,7 +18,7 @@ If you find any inconsistency in any language, raise an [Issue](https://github.c
 
 ## Custom Font
 
-The original JetBrains Rider use "JetBrains Mono" font family
+The original JetBrains Rider use "JetBrains Mono" font family,
 You can [download](https://www.jetbrains.com/lp/mono/) and install the font in your system, and add this option to have a custom font:
 
 ```json
