@@ -3,7 +3,7 @@
   "displayName": "JetBrains Rider Dark Theme",
   "description": "JetBrains Rider Dark Theme for Visual Studio Code",
   "repository": "https://github.com/edsulaiman/jetbrains-rider-dark-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "EdwinSulaiman",
   "icon": "images/rider_logo.png",
   "engines": {
