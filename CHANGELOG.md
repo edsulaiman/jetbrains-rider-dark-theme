@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.0]
+
+- Implement "New UI" theme
+
 ## [0.0.3]
 
 - Fix html tag color
