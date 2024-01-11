@@ -1,8 +1,8 @@
 # JetBrains Rider Dark Theme
 
-VSCode Theme based on JetBrains Rider Dark theme.
+VSCode Theme based on JetBrains Rider Dark theme ("New UI").
 
-![Screenshot](./screenshots/screenshot-new-ui.png)
+![Screenshot](./screenshots/SCR-20240112-fxhx.png)
 
 ## Installing
 
