@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.2]
+
+- Remove unused color token
+- Use old syntax highlighting
+- Fix some ui color
+
 ## [1.0.1]
 
 - Use color defined in "New UI" figma
