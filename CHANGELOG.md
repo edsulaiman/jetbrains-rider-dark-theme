@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.1]
+
+- Use color defined in "New UI" figma
+
 ## [1.0.0]
 
 - Implement "New UI" theme
