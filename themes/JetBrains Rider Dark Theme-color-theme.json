@@ -29,6 +29,13 @@
       }
     },
     {
+      "name": "Property",
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#77AFB3"
+      }
+    },
+    {
       "name": "haskell storage type",
       "scope": "storage.type.haskell",
       "settings": {
@@ -757,7 +764,7 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#6C95EB"
+        "foreground": "#DB88A4"
       }
     },
     {
