@@ -98,6 +98,15 @@
         "foreground": "#BDC0C9"
       }
     },
+	{
+	  "scope": [
+		"meta.interpolation.cs",
+		"variable.other.readwrite.cs"
+	  ],
+	  "settings": {
+		"foreground": "#BCD0C9"
+	  }
+	},
     {
       "scope": "invalid",
       "settings": {
