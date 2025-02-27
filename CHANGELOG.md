@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3]
+
+- Fix typescript primitive type color
+
 ## [1.0.2]
 
 - Remove unused color token
