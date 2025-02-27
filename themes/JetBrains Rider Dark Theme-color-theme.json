@@ -209,7 +209,13 @@
       }
     },
     {
-      "scope": ["variable.other.type", "variable.other.generic", "entity.name.type.type-parameter", "entity.name.type"],
+      "scope": [
+        "variable.other.type",
+        "variable.other.generic",
+        "entity.name.type.type-parameter",
+        "entity.name.type",
+        "support.type.primitive.ts"
+      ],
       "settings": {
         "foreground": "#c191ff"
       }
