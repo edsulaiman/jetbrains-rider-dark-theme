@@ -14,7 +14,7 @@ Click here to go to the [Changelog](https://github.com/edsulaiman/jetbrains-ride
 
 ## Inconsistencies?
 
-If you find any inconsistency in any language, raise an [Issue](https://github.com/edsulaiman/jetbrains-rider-dark-theme/issues) and I'll fix it, please provide a sample for the language so I can compare.
+If you find any inconsistency in any language, feel free to raise an [Issue](https://github.com/edsulaiman/jetbrains-rider-dark-theme/issues), and either I or someone else will look into it. Please provide a sample for comparison. You can also contribute by submitting a pull request!
 
 ## Custom Font
 
