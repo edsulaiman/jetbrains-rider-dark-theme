@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.7]
+
+- Fix php syntax color
+
 ## [1.0.6]
 
 - Enable semantic highlighting
