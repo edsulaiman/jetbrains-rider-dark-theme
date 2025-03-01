@@ -4,17 +4,17 @@
   "colors": {
     "titleBar.activeBackground": "#2B2D30",
     "titleBar.inactiveBackground": "#2B2D30",
-    "titleBar.activeForeground": "#BDC0C9",
-    "titleBar.inactiveForeground": "#BDC0C9",
+    "titleBar.activeForeground": "#BDBDBD",
+    "titleBar.inactiveForeground": "#BDBDBD",
     "activityBar.background": "#2B2D30",
-    "activityBar.foreground": "#BDC0C9",
+    "activityBar.foreground": "#BDBDBD",
     "activityBar.border": "#1E1F21",
-    "sideBarTitle.foreground": "#BDC0C9",
+    "sideBarTitle.foreground": "#BDBDBD",
     "sideBar.background": "#2B2D30",
-    "sideBar.foreground": "#BDC0C9",
+    "sideBar.foreground": "#BDBDBD",
     "sideBar.border": "#1E1F21",
     "sideBarSectionHeader.background": "#2B2D30",
-    "sideBarSectionHeader.foreground": "#BDC0C9",
+    "sideBarSectionHeader.foreground": "#BDBDBD",
     "sideBarSectionHeader.border": "#1E1F21",
     "tab.activeBackground": "#1E1F21",
     "tab.activeForeground": "#82ACFC",
@@ -24,14 +24,14 @@
     "tab.border": "#1E1F21",
     "toolbar.activeBackground": "#1E1F21",
     "breadcrumb.background": "#1E1F21",
-    "breadcrumb.foreground": "#BDC0C9",
+    "breadcrumb.foreground": "#BDBDBD",
     "widget.shadow": "#00000075",
     "editorWidget.background": "#2B2D30",
     "editorWidget.border": "#2B2D30",
-    "editorWidget.foreground": "#BDC0C9",
+    "editorWidget.foreground": "#BDBDBD",
     "scrollbar.shadow": "#262626",
     "editor.background": "#262626",
-    "editor.foreground": "#BDC0C9",
+    "editor.foreground": "#BDBDBD",
     "editor.selectionBackground": "#0A3783",
     "editorGroup.emptyBackground": "#1E1F21",
     "editorGroupHeader.tabsBackground": "#1E1F21",
@@ -43,11 +43,11 @@
     "panelTitle.activeForeground": "#82ACFC",
     "panelTitle.inactiveForeground": "#9FA1A5",
     "statusBar.background": "#2B2D30",
-    "statusBar.foreground": "#BDC0C9",
+    "statusBar.foreground": "#BDBDBD",
     "statusBar.debuggingBackground": "#3474F0",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.noFolderBackground": "#2B2D30",
-    "statusBar.noFolderForeground": "#BDC0C9",
+    "statusBar.noFolderForeground": "#BDBDBD",
     "button.background": "#3474F0",
     "list.activeSelectionBackground": "#0A3783",
     "list.inactiveSelectionBackground": "#2E436B",
@@ -59,9 +59,12 @@
         "keyword",
         "storage.type",
         "constant.language.boolean",
-        "storage.modifier.async",
         "variable.language.this",
-        "constant.language"
+        "constant.language",
+        "support.type.property-name.css",
+        "support.type.property-name.media.css",
+        "punctuation.definition.entity.html",
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#6C95EB"
@@ -74,7 +77,13 @@
         "entity.name.type.class",
         "support.type.primitive",
         "support.class",
-        "support.type.exception"
+        "support.type.exception",
+        "entity.name.tag.css",
+        "keyword.control.at-rule.media.css",
+        "support.constant.font-name.css",
+        "entity.name.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
       ],
       "settings": {
         "foreground": "#C191FF"
@@ -99,13 +108,18 @@
       }
     },
     {
-      "scope": "comment",
+      "scope": ["comment", "entity.other.attribute-name.html"],
       "settings": {
         "foreground": "#85C46C"
       }
     },
     {
-      "scope": ["entity.name.function", "support.function.magic", "support.function.builtin"],
+      "scope": [
+        "entity.name.function",
+        "support.function.magic",
+        "support.function.builtin",
+        "support.function.misc.css"
+      ],
       "settings": {
         "foreground": "#3ACC9C"
       }
@@ -129,7 +143,8 @@
         "punctuation.parenthesis.open",
         "punctuation.parenthesis.close",
         "punctuation.terminator.statement",
-        "keyword.operator"
+        "keyword.operator",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#BDBDBD"
@@ -140,13 +155,12 @@
       "settings": {
         "foreground": "#EC94C0"
       }
+    },
+    {
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#ADEB96"
+      }
     }
-  ],
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "newOperator": "#7488C3",
-    "stringLiteral": "#6CAB74",
-    "customLiteral": "#BDC0C9",
-    "numberLiteral": "#BDC0C9"
-  }
+  ]
 }
