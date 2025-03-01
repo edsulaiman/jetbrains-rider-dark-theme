@@ -85,10 +85,7 @@
         "support.constant.font-name.css",
         "entity.name.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "entity.name.type",
-        "entity.name.tag.localname.xml",
-        "punctuation.definition.tag.xml"
+        "punctuation.definition.tag.end.html"
       ],
       "settings": {
         "foreground": "#C191FF"
@@ -168,5 +165,9 @@
         "foreground": "#ADEB96"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "property": "#65C3CC"
+  }
 }
