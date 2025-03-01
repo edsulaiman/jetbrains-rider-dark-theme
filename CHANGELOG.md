@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.6]
+
+- Enable semantic highlighting
+
 ## [1.0.5]
 
 - Fix json syntax color
