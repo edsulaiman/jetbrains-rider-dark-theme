@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.4]
+
+- Change editor background color to match current Rider editor background color
+- Change panel background color to match current Rider panel color
+- Use global scope token name to cover all language
+- Use current Rider syntax color
+
 ## [1.0.3]
 
 - Fix typescript primitive type color
