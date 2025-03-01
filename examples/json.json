@@ -1,0 +1,51 @@
+{
+  "website": {
+    "name": "Example Site",
+    "url": "https://www.example.com",
+    "isActive": true,
+    "launchYear": 2025,
+    "categories": ["Technology", "Programming", "AI"],
+    "contact": {
+      "email": "support@example.com",
+      "phone": "+1-234-567-890"
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "Admin",
+      "preferences": {
+        "theme": "dark",
+        "notifications": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "Editor",
+      "preferences": {
+        "theme": "light",
+        "notifications": false
+      }
+    }
+  ],
+  "api_keys": {
+    "google": "AIzaSyEXAMPLE",
+    "openai": "sk-EXAMPLE"
+  },
+  "statusCodes": {
+    "success": 200,
+    "notFound": 404,
+    "serverError": 500
+  },
+  "settings": {
+    "maxUploadSizeMB": 50,
+    "enableLogging": true,
+    "supportedFormats": ["jpg", "png", "pdf"],
+    "features": {
+      "beta": false,
+      "experimental": ["AI Chatbot", "Auto-Translate"]
+    }
+  }
+}

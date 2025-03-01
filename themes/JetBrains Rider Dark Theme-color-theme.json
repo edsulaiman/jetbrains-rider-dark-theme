@@ -104,7 +104,8 @@
         "entity.name.variable.field",
         "entity.name.variable.property",
         "variable.other.object.property",
-        "variable.other.enummember"
+        "variable.other.enummember",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#65C3CC"
