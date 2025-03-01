@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.5]
+
+- Fix json syntax color
+- Fix xml syntax color
+- Fix csharp new and await keyword syntax color
+
 ## [1.0.4]
 
 - Change editor background color to match current Rider editor background color
