@@ -64,7 +64,9 @@
         "support.type.property-name.css",
         "support.type.property-name.media.css",
         "punctuation.definition.entity.html",
-        "storage.modifier"
+        "storage.modifier",
+        "keyword.operator.expression.await",
+        "keyword.operator.expression.new"
       ],
       "settings": {
         "foreground": "#6C95EB"
@@ -83,14 +85,15 @@
         "support.constant.font-name.css",
         "entity.name.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.end.html",
+        "entity.name.type"
       ],
       "settings": {
         "foreground": "#C191FF"
       }
     },
     {
-      "scope": ["entity.name.type.enum", "entity.name.type.struct", "entity.name.type"],
+      "scope": ["entity.name.type.enum", "entity.name.type.struct"],
       "settings": {
         "foreground": "#E2BFFF"
       }
