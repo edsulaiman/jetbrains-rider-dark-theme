@@ -66,7 +66,8 @@
         "punctuation.definition.entity.html",
         "storage.modifier",
         "keyword.operator.expression.await",
-        "keyword.operator.expression.new"
+        "keyword.operator.expression.new",
+        "support.function.construct.output.php"
       ],
       "settings": {
         "foreground": "#6C95EB"
@@ -85,7 +86,11 @@
         "support.constant.font-name.css",
         "entity.name.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.end.html",
+        "entity.name.type",
+        "entity.name.tag.localname.xml",
+        "punctuation.definition.tag.xml"
       ],
       "settings": {
         "foreground": "#C191FF"
@@ -121,7 +126,8 @@
         "entity.name.function",
         "support.function.magic",
         "support.function.builtin",
-        "support.function.misc.css"
+        "support.function.misc.css",
+        "meta.function-call.php"
       ],
       "settings": {
         "foreground": "#3ACC9C"
