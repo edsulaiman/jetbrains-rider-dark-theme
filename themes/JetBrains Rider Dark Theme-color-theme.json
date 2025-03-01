@@ -86,7 +86,9 @@
         "entity.name.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "entity.name.type"
+        "entity.name.type",
+        "entity.name.tag.localname.xml",
+        "punctuation.definition.tag.xml"
       ],
       "settings": {
         "foreground": "#C191FF"
@@ -112,7 +114,7 @@
       }
     },
     {
-      "scope": ["comment", "entity.other.attribute-name.html"],
+      "scope": ["comment", "entity.other.attribute-name.html", "meta.tag.xml"],
       "settings": {
         "foreground": "#85C46C"
       }

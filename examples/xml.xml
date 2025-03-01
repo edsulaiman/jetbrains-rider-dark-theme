@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+    <name>Example Site</name>
+    <url>https://www.example.com</url>
+    <isActive>true</isActive>
+    <launchYear>2025</launchYear>
+
+    <categories>
+        <category>Technology</category>
+        <category>Programming</category>
+        <category>AI</category>
+    </categories>
+
+    <contact>
+        <email>support@example.com</email>
+        <phone>+1-234-567-890</phone>
+    </contact>
+
+    <users>
+        <user id="1" role="Admin">
+            <name>Alice Johnson</name>
+            <preferences>
+                <theme>dark</theme>
+                <notifications>true</notifications>
+            </preferences>
+        </user>
+        <user id="2" role="Editor">
+            <name>Bob Smith</name>
+            <preferences>
+                <theme>light</theme>
+                <notifications>false</notifications>
+            </preferences>
+        </user>
+    </users>
+
+    <api_keys>
+        <google>AIzaSyEXAMPLE</google>
+        <openai>sk-EXAMPLE</openai>
+    </api_keys>
+
+    <statusCodes>
+        <success>200</success>
+        <notFound>404</notFound>
+        <serverError>500</serverError>
+    </statusCodes>
+
+    <settings>
+        <maxUploadSizeMB>50</maxUploadSizeMB>
+        <enableLogging>true</enableLogging>
+        <supportedFormats>
+            <format>jpg</format>
+            <format>png</format>
+            <format>pdf</format>
+        </supportedFormats>
+        <features>
+            <beta>false</beta>
+            <experimental>
+                <feature>AI Chatbot</feature>
+                <feature>Auto-Translate</feature>
+            </experimental>
+        </features>
+    </settings>
+</website>
