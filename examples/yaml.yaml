@@ -1,0 +1,78 @@
+# Site Configuration
+website:
+  name: "Example Site"
+  url: "https://www.example.com"
+  isActive: true
+  launchYear: 2025
+
+# Categories as an Array
+categories:
+  - Technology
+  - Programming
+  - AI
+
+# Contact Information (Nested Object)
+contact:
+  email: "support@example.com"
+  phone: "+1-234-567-890"
+
+# List of Users (Array of Objects)
+users:
+  - id: 1
+    name: "Alice Johnson"
+    role: "Admin"
+    preferences:
+      theme: "dark"
+      notifications: true
+  - id: 2
+    name: "Bob Smith"
+    role: "Editor"
+    preferences:
+      theme: "light"
+      notifications: false
+
+# API Keys (Key-Value Pairs)
+api_keys:
+  google: "AIzaSyEXAMPLE"
+  openai: "sk-EXAMPLE"
+
+# HTTP Status Codes (Numbers)
+statusCodes:
+  success: 200
+  notFound: 404
+  serverError: 500
+
+# Application Settings (Mixed Data Types)
+settings:
+  maxUploadSizeMB: 50
+  enableLogging: true
+  supportedFormats:
+    - jpg
+    - png
+    - pdf
+  features:
+    beta: false
+    experimental:
+      - "AI Chatbot"
+      - "Auto-Translate"
+
+# Multi-line String Example
+about: |
+  This is an example website.
+  It demonstrates YAML syntax highlighting.
+  Supports multi-line text with the pipe `|` operator.
+
+# Nested Configuration Example
+server:
+  host: "127.0.0.1"
+  port: 8080
+  ssl:
+    enabled: true
+    certificatePath: "/etc/ssl/cert.pem"
+    privateKeyPath: "/etc/ssl/key.pem"
+
+# Environment Variables
+environment:
+  NODE_ENV: "production"
+  DEBUG_MODE: false
+  DATABASE_URL: "postgres://user:password@localhost:5432/mydb"

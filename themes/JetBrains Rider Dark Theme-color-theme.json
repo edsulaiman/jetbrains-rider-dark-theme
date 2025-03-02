@@ -91,7 +91,8 @@
         "entity.name.type",
         "entity.name.tag.localname.xml",
         "punctuation.definition.tag.xml",
-        "constant.character.escape"
+        "constant.character.escape",
+        "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#C191FF"
