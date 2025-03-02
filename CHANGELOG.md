@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.8]
+
+- Fix single quoted string
+- Fix escaped character color
+
 ## [1.0.7]
 
 - Fix php syntax color
