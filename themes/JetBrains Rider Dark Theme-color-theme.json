@@ -138,7 +138,8 @@
         "string.quoted.double",
         "string.interpolated.double",
         "string.quoted.single",
-        "meta.preprocessor.include"
+        "meta.preprocessor.include",
+        "string.interpolated.single"
       ],
       "settings": {
         "foreground": "#C8A16D"
