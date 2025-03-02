@@ -90,7 +90,8 @@
         "punctuation.definition.tag.end.html",
         "entity.name.type",
         "entity.name.tag.localname.xml",
-        "punctuation.definition.tag.xml"
+        "punctuation.definition.tag.xml",
+        "constant.character.escape"
       ],
       "settings": {
         "foreground": "#C191FF"
