@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.9]
+
+- Fix yaml syntax color
+
 ## [1.0.8]
 
 - Fix single quoted string
