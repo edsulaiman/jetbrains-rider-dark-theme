@@ -38,6 +38,7 @@ async function fetchData() {
 
 // Error Handling
 try {
+  const message2 = `Hello, World!`;
   throw new Error("Something went wrong!");
 } catch (error) {
   console.error(error);
