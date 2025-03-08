@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.10]
+
+- Fix jsx syntax color
+- Fix tsx syntax color
+- Fix js string template syntax color
+
 ## [1.0.9]
 
 - Fix yaml syntax color
