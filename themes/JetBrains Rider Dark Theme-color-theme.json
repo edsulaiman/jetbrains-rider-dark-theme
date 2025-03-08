@@ -85,6 +85,8 @@
         "keyword.control.at-rule.media.css",
         "support.constant.font-name.css",
         "entity.name.tag.html",
+        "entity.name.tag.tsx",
+        "entity.name.tag.js.jsx",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.end.html",
@@ -118,7 +120,13 @@
       }
     },
     {
-      "scope": ["comment", "entity.other.attribute-name.html", "meta.tag.xml"],
+      "scope": [
+        "comment",
+        "entity.other.attribute-name.html",
+        "meta.tag.xml",
+        "meta.tag.attributes.tsx",
+        "meta.tag.attributes.js.jsx"
+      ],
       "settings": {
         "foreground": "#85C46C"
       }
@@ -141,7 +149,8 @@
         "string.interpolated.double",
         "string.quoted.single",
         "meta.preprocessor.include",
-        "string.interpolated.single"
+        "string.interpolated.single",
+        "string.template"
       ],
       "settings": {
         "foreground": "#C8A16D"
