@@ -2,7 +2,13 @@
 
 VSCode Theme based on JetBrains Rider Dark theme ("New UI").
 
+### Default
+
 ![Screenshot](https://github.com/edsulaiman/jetbrains-rider-dark-theme/blob/main/screenshots/SCR-20250301-tfec.png?raw=true)
+
+### Darker
+
+![Screenshot](https://github.com/edsulaiman/jetbrains-rider-dark-theme/blob/main/screenshots/SCR-20250601.png)
 
 ## Installing
 

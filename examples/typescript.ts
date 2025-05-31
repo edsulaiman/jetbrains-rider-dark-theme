@@ -10,6 +10,17 @@ const num: number = 42;
 let str: string = "TypeScript!";
 const isValid: boolean = true;
 
+// TypeScript operation expression
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+};
+class CUser {}
+type TUser = typeof person;
+const KUser: keyof TUser = "firstName";
+if (person instanceof CUser) {
+}
+
 // Function with Types
 function add(a: number, b: number): number {
   return a + b;

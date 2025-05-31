@@ -1,0 +1,199 @@
+{
+  "name": "JetBrains Rider Dark Theme - Custom Fadli",
+  "type": "dark",
+  "colors": {
+    "titleBar.activeBackground": "#1f1f21",
+    "titleBar.inactiveBackground": "#1f1f21",
+    "titleBar.activeForeground": "#BDBDBD",
+    "titleBar.inactiveForeground": "#BDBDBD",
+    "activityBar.background": "#1f1f21",
+    "activityBar.foreground": "#BDBDBD",
+    "activityBar.border": "#1E1F21",
+    "sideBarTitle.foreground": "#BDBDBD",
+    "sideBar.background": "#1f1f21",
+    "sideBar.foreground": "#BDBDBD",
+    "sideBar.border": "#1E1F21",
+    "sideBarSectionHeader.background": "#1f1f21",
+    "sideBarSectionHeader.foreground": "#BDBDBD",
+    "sideBarSectionHeader.border": "#1E1F21",
+    "tab.activeBackground": "#1E1F21",
+    "tab.activeForeground": "#3d6cc3",
+    "tab.activeBorder": "#3474F0",
+    "tab.inactiveBackground": "#1E1F21",
+    "tab.inactiveForeground": "#9FA1A5",
+    "tab.border": "#1E1F21",
+    "toolbar.activeBackground": "#1E1F21",
+    "breadcrumb.background": "#1E1F21",
+    "breadcrumb.foreground": "#BDBDBD",
+    "widget.shadow": "#00000075",
+    "editorWidget.background": "#1f1f21",
+    "editorWidget.border": "#1f1f21",
+    "editorWidget.foreground": "#BDBDBD",
+    "scrollbar.shadow": "#1d1d1d",
+    "editor.background": "#1d1d1d",
+    "editor.foreground": "#BDBDBD",
+    "editor.selectionBackground": "#0A3783",
+    "editorGroup.emptyBackground": "#1E1F21",
+    "editorGroupHeader.tabsBackground": "#1E1F21",
+    "editorGroupHeader.tabsBorder": "#2b2d30",
+    "editorGroup.border": "#2b2d30",
+    "panel.background": "#1d1d1d",
+    "panel.border": "#1E1F21",
+    "panelTitle.activeBorder": "#3d6cc3",
+    "panelTitle.activeForeground": "#82ACFC",
+    "panelTitle.inactiveForeground": "#9FA1A5",
+    "statusBar.background": "#1f1f21",
+    "statusBar.foreground": "#BDBDBD",
+    "statusBar.debuggingBackground": "#3474F0",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.noFolderBackground": "#1f1f21",
+    "statusBar.noFolderForeground": "#BDBDBD",
+    "button.background": "#3474F0",
+    "list.activeSelectionBackground": "#0A3783",
+    "list.inactiveSelectionBackground": "#0A3783",
+    "list.hoverBackground": "#2E436B"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "constant.language.boolean",
+        "variable.language.this",
+        "constant.language",
+        "support.type.property-name.css",
+        "support.type.property-name.media.css",
+        "punctuation.definition.entity.html",
+        "storage.modifier",
+        "keyword.operator.expression.await",
+        "keyword.operator.expression.new",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.delete",
+        "support.function.construct.output.php"
+      ],
+      "settings": {
+        "foreground": "#6C95EB"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.namespace",
+        "entity.name.type.interface",
+        "entity.name.type.class",
+        "support.type.primitive",
+        "support.class",
+        "support.type.exception",
+        "entity.name.tag.css",
+        "keyword.control.at-rule.media.css",
+        "support.constant.font-name.css",
+        "entity.name.tag.html",
+        "entity.name.tag.tsx",
+        "entity.name.tag.js.jsx",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.js.jsx",
+        "punctuation.definition.tag.end.js.jsx",
+        "entity.name.type",
+        "entity.name.tag.localname.xml",
+        "punctuation.definition.tag.xml",
+        "constant.character.escape",
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    },
+    {
+      "scope": ["entity.name.type.enum", "entity.name.type.struct"],
+      "settings": {
+        "foreground": "#E2BFFF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.variable.enum-member",
+        "entity.name.variable.field",
+        "entity.name.variable.property",
+        "variable.other.object.property",
+        "variable.other.enummember",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#65C3CC"
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "entity.other.attribute-name.html",
+        "meta.tag.xml",
+        "meta.tag.attributes.tsx",
+        "meta.tag.attributes.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#85C46C"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function.magic",
+        "support.function.builtin",
+        "support.function.misc.css",
+        "meta.function-call.php"
+      ],
+      "settings": {
+        "foreground": "#3ACC9C"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double",
+        "string.interpolated.double",
+        "string.quoted.single",
+        "meta.preprocessor.include",
+        "string.interpolated.single",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#C8A16D"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter",
+        "meta.interpolation",
+        "entity.name.variable.local",
+        "punctuation.parenthesis.open",
+        "punctuation.parenthesis.close",
+        "punctuation.terminator.statement",
+        "keyword.operator",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#BDBDBD"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#EC94C0"
+      }
+    },
+    {
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#ADEB96"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "property": "#65C3CC"
+  }
+}
