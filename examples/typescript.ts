@@ -5,6 +5,17 @@ interface Animal {
   age: number;
 }
 
+// TypeScript operation expression
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+};
+class CUser {}
+type TUser = typeof person;
+const KUser: keyof TUser = "firstName";
+if (person instanceof CUser) {
+}
+
 // Variables with Type Annotations
 const num: number = 42;
 let str: string = "TypeScript!";
