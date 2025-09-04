@@ -3,7 +3,6 @@
 ## [1.0.11]
 
 - Add operator expression (instanceof, typeof, keyof, in, delete)
-- Add darker theme color
 
 ## [1.0.10]
 
