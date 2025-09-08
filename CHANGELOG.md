@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.12]
+
+- Add markdown syntax color
+
 ## [1.0.11]
 
 - Add operator expression (instanceof, typeof, keyof, in, delete)
