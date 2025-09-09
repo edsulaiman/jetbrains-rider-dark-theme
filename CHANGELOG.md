@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.13]
+
+- Fix inconsistent ui color
+- Fix razor token color
+- Fix some inconsistent token color
+
 ## [1.0.12]
 
 - Add markdown syntax color
